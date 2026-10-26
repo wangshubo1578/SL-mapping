@@ -1,0 +1,18 @@
+name: Package Skill
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/package_skill.py --out dist/sl-mapping.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sl-mapping
+          path: dist/sl-mapping.zip
