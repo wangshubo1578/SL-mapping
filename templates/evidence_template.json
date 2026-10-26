@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "name": "",
+    "hospital": "",
+    "department": "",
+    "as_of": "YYYY-MM-DD",
+    "window_start": "YYYY-MM-DD",
+    "version": "v1",
+    "summary": ""
+  },
+  "basic": [
+    {
+      "field": "姓名",
+      "value": "",
+      "sources": []
+    }
+  ],
+  "appointments": [
+    {
+      "organization": "",
+      "role": "",
+      "term": "",
+      "status": "待核实",
+      "sources": []
+    }
+  ],
+  "biography": [
+    {
+      "date": "",
+      "event": "",
+      "sources": []
+    }
+  ],
+  "publications": [
+    {
+      "title": "",
+      "journal": "",
+      "date": "",
+      "type": "",
+      "author_role": "",
+      "identifier": "",
+      "selection_reason": "",
+      "sources": []
+    }
+  ],
+  "collaborators": [
+    {
+      "id": "",
+      "name": "",
+      "institution": "",
+      "group": "china",
+      "relationship_type": "共同论文",
+      "evidence": "",
+      "date": "",
+      "sources": []
+    }
+  ],
+  "communication": {
+    "研究主题": [],
+    "证据问题": [],
+    "交流材料": [],
+    "待确认事项": []
+  },
+  "directions": [
+    {
+      "topic": "",
+      "kind": "公开研究方向",
+      "basis": "",
+      "limitation": "",
+      "sources": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "",
+      "publisher": "",
+      "published": "",
+      "accessed": "",
+      "url": "",
+      "excerpt": "",
+      "supports": [],
+      "verified": false
+    }
+  ],
+  "limitations": [],
+  "changes": []
+}

@@ -1,0 +1,13 @@
+{
+  "local_unit_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "not_verified": [
+    "GitHub remote CI",
+    "Cowork import compatibility",
+    "real physician research",
+    "network figure rendering",
+    "Word visual layout"
+  ]
+}

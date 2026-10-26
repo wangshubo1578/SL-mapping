@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+# Private research inputs and outputs
+data/
+private/
+outputs/
+_render/
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.xlsx
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Build artifacts
+dist/
+build/
+*.zip
